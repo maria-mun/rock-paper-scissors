@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Rock-paper-scissors</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Rock-paper-scissors</h1>
+    <p>Make your choice:</p>
+
+    <form class="options-form">
+        <label class="option">
+            <input type="radio" name="option" value="rock"><div>rock</div>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="paper"><div>paper</div>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="scissors"><div>scissors</div>
+        </label>
+
+        <button class="confirm-btn" id="confirm-btn" type="button">Confirm</button>
+    </form>
+    <h3>Round results</h3>
+    <div class="labels">
+        <p></p>
+        <p>You</p>
+        <p>Computer</p>
+    </div>
+    <div class="rounds-results">
+        <div class="round" id="round-1">
+            <div class="text">Round 1</div>
+            <div class="user-choice" data-value="1"></div>
+            <div class="com-choice" data-value="1"></div>
+        </div>
+        <div class="round" id="round-2">
+            <div class="text">Round 2</div>
+            <div class="user-choice" data-value="2"></div>
+            <div class="com-choice" data-value="2"></div>
+        </div>
+        <div class="round" id="round-3">
+            <div class="text">Round 3</div>
+            <div class="user-choice" data-value="3"></div>
+            <div class="com-choice" data-value="3"></div>
+        </div>
+    </div>
+    <div class="game-result">
+
+    </div>
+    
+    </div>
+</body>
+</html>
